@@ -5,7 +5,7 @@ import javax.xml.ws.Action;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-@Service("Student")
+
 public class Student {
 	@Value("${id}")
 	private int id;
