@@ -2,16 +2,19 @@ package com.example.demo;
 import java.util.ArrayList;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
+import org.springframework.web.client.RestTemplate;
 
 @Repository
 public class DataBaseSimulation {
 	
 	private ArrayList<Integer> id = new ArrayList<Integer>();
 	private ArrayList<String> name = new ArrayList<String>();
-
+	
 	public void add(Student student) {
 		id.add(student.getId());
 		name.add(student.getName());
+	//	RestTemplate restTemplate;
+		//restTemplate.getForEntity(url, responseType, null);
 	}
 	
 	public void delete(int id) {

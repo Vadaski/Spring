@@ -1,13 +1,11 @@
 package com.example.demo;
 
-//import org.aopalliance.intercept.Joinpoint;
 import org.aspectj.lang.annotation.After;
-import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
-import org.aspectj.lang.reflect.MemberSignature;
 import org.springframework.stereotype.Component;
+
 @Aspect
 @Component
 
